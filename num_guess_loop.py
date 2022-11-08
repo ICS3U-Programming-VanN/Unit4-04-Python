@@ -27,7 +27,7 @@ def main():
 
         # In the event of an exception
         except:
-            print(f"{user_guess_string} is not a valid guess!  Try again.\n")
+            print(f"{user_guess_string} is not a valid guess! Try again.\n")
 
         # If the user entered valid input
         else:
@@ -48,9 +48,8 @@ def main():
                 else:
                     print("You guessed wrong! Try again.\n")
 
-        # Final message displayed to user regardless of input
-        finally:
-            print("Thank you for playing!")
+    # Final message displayed to user regardless of input
+    print("\nThank you for playing!")
 
 
 if __name__ == "__main__":
